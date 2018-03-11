@@ -20024,7 +20024,7 @@ var Main = function (_React$Component) {
 
             return _react2.default.createElement(
                 'div',
-                { className: 'container-fluid' },
+                { className: 'container' },
                 _react2.default.createElement(
                     'h1',
                     null,
@@ -20043,7 +20043,7 @@ var Main = function (_React$Component) {
                     { className: 'row' },
                     _react2.default.createElement(
                         'div',
-                        { className: 'col-sm-6' },
+                        { className: 'col-xl-6' },
                         _react2.default.createElement(
                             'h3',
                             null,
@@ -20053,7 +20053,7 @@ var Main = function (_React$Component) {
                     ),
                     _react2.default.createElement(
                         'div',
-                        { className: 'col-sm-6' },
+                        { className: 'col-xl-6' },
                         _react2.default.createElement(
                             'h3',
                             null,
