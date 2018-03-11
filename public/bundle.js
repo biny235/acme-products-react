@@ -20024,7 +20024,7 @@ var Main = function (_React$Component) {
 
             return _react2.default.createElement(
                 'div',
-                { className: 'container' },
+                { className: 'container-fluid' },
                 _react2.default.createElement(
                     'h1',
                     null,

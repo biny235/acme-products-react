@@ -71,7 +71,7 @@ export default class Main extends React.Component{
         const { products, specials, selectedProduct, selectedSpecial } = this.state;
         const { productSelect, specialSelect, makeProduct, makeSpecial } = this;
         return(
-            <div className='container'>
+            <div className='container-fluid'>
                 <h1>Acme Products</h1>
                 <h2>We have {specials.length} Special{specials.length > 1 || specials.length === 0 ? "s" : null }</h2>
                 <div className='row'>
