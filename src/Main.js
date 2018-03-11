@@ -75,11 +75,11 @@ export default class Main extends React.Component{
                 <h1>Acme Products</h1>
                 <h2>We have {specials.length} Special{specials.length > 1 || specials.length === 0 ? "s" : null }</h2>
                 <div className='row'>
-                    <div className='col-md-6'>
+                    <div className='col-sm-6'>
                         <h3>Products</h3>
                         <Form onChange={productSelect} selectedProduct={selectedProduct} onClick={makeSpecial} products={products}/>
                     </div>
-                    <div className='col-md-6'>
+                    <div className='col-sm-6'>
                         <h3>Specials</h3>
                         <Form onChange={specialSelect} selectedProduct={selectedSpecial} onClick={makeProduct} products={specials}/>
                     </div>  

@@ -20043,7 +20043,7 @@ var Main = function (_React$Component) {
                     { className: 'row' },
                     _react2.default.createElement(
                         'div',
-                        { className: 'col-md-6' },
+                        { className: 'col-sm-6' },
                         _react2.default.createElement(
                             'h3',
                             null,
@@ -20053,7 +20053,7 @@ var Main = function (_React$Component) {
                     ),
                     _react2.default.createElement(
                         'div',
-                        { className: 'col-md-6' },
+                        { className: 'col-sm-6' },
                         _react2.default.createElement(
                             'h3',
                             null,
@@ -20118,7 +20118,6 @@ var Form = function (_React$Component) {
     _createClass(Form, [{
         key: 'componentDidMount',
         value: function componentDidMount() {
-
             this.setState({ products: this.props.products });
         }
     }, {

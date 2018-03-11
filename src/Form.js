@@ -9,7 +9,6 @@ class Form extends React.Component {
         }
     }
     componentDidMount(){
-
         this.setState({products: this.props.products})
     }
     componentWillReceiveProps(nextProps){
