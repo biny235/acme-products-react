@@ -2,6 +2,7 @@ import React from 'react';
 
 const Selector = props=>{
     const {products, onChange} = props
+    
     return(
         <select onChange={onChange} className="form-control">
             <option value="">---</option>
